@@ -10,6 +10,6 @@ public class FrontController {
     @GetMapping("/back")
     public ResponseEntity<String> ping() {
         System.out.println("First Debug from Remote:))");
-        return ResponseEntity.ok("I am alive and well, and remote called asd");
+        return ResponseEntity.ok("I am alive and well, and remote called asd qwe");
     }
 }
